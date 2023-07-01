@@ -5,7 +5,56 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = [];
+inquirer.prompt([
+   {
+    type: 'input',
+    name: 'title',
+    message: 'What is your project called?'
+   },
+   {
+    type: 'input',
+    name: 'description',
+    message: 'Please give a description of your project.'
+   },
+   {
+    type: 'input',
+    name: 'installation',
+    message: 'Please provide installation instructions. If none are needed, please type "N/A".'
+   },
+   {
+    type: 'input',
+    name: 'usage',
+    message: 'Please provide usage information.'
+   },
+   {
+    type: 'input',
+    name: 'contribution',
+    message: 'Please provide contribution guidelines.'
+   },
+   {
+    type: 'input',
+    name: 'test',
+    message: 'Please provide any test information.'
+   },
+   {
+    type: 'checkbox',
+    name: 'license',
+    message: 'Please choose a license(s).',
+    choices: ['ISC', 'MIT', 'Mozilla Public License 2.0', 'GNU General Public License v3.0',
+
+    ],
+   },
+   {
+    type: 'input',
+    name: 'Github',
+    message: 'Please provide your Github user name.'
+   },
+   {
+    type: 'input',
+    name: 'email',
+    message: 'Please provide a contact email.'
+   }
+])
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
