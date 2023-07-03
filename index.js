@@ -41,7 +41,7 @@ inquirer.prompt([
     type: 'list',
     name: 'license',
     message: 'Please choose a license.',
-    choices: ['ISC', 'MIT', 'Mozilla Public License 2.0', 'GNU General Public License v3.0', 'None',
+    choices: ['ISC', 'MIT', 'None',
 
     ],
    },

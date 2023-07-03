@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== 'none') {
     return `
-    ![badge](https://img.shields.io/badge/license-${license}-blue)
+    ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
     `;
   } else {
     return '';
@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'none') {
     return `
-    [${license}](https://choosealicense.com/licenses/${license})
+    [${license}](https://opensource.org/licenses/${license})
     `;
   } else {
     return '';
