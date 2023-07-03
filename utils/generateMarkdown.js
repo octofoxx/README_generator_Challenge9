@@ -2,10 +2,10 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'none') {
-    return `
-    ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
-    `;
-  } else {
+    return `![badge](https://img.shields.io/badge/License-${license}-blue.svg)`;
+  } 
+  else 
+  {
     return '';
   }
 }
@@ -15,10 +15,10 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'none') {
-    return `
-    [${license}](https://opensource.org/licenses/${license})
-    `;
-  } else {
+    return `[${license}](https://opensource.org/licenses/${license})`;
+  } 
+  else 
+  {
     return '';
   }
 }
@@ -28,13 +28,15 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'none') {
     return `
-  ## [License](#table-of-contents)
+## [License](#table-of-contents)
   
     The application is covered under the following license:
   
-    ${renderLicenseLink(license)}
-      `;
-  } else {
+  ${renderLicenseLink(license)}
+    `;
+  } 
+  else 
+  {
     return ' ';
   }
 }
@@ -43,10 +45,10 @@ function renderLicenseSection(license) {
 // If there is no license, return an empty string
 function renderLicenseTOC(license) {
   if (license !== 'none') {
-    return `
-  * [License](#license)
-    `;
-  } else {
+    return `* [License](#license)`;
+  } 
+  else 
+  {
     return ' ';
   }
 }
