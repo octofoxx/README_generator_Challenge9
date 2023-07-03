@@ -19,12 +19,12 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-## Table-of-Contents
+## Table of Contents
   
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
-* [Testing](#testing)
+* [Contributing](#contributing)
+* [Tests](#tests)
 * [Questions](#questions)
 
 ## [Installation](#table-of-contents)
@@ -35,11 +35,11 @@ function generateMarkdown(data) {
   
   ${data.usage}
 
-## [Contribution](#table-of-contents)
+## [Contributing](#table-of-contents)
   
   ${data.contribution}
 
-## [Testing](#table-of-contents)
+## [Tests](#table-of-contents)
   
   ${data.test}
 

@@ -47,7 +47,7 @@ inquirer.prompt([
    },
    {
     type: 'input',
-    name: 'Github',
+    name: 'github',
     message: 'Please provide your Github user name.'
    },
    {
