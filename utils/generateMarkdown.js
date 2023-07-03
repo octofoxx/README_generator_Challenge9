@@ -27,13 +27,11 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'none') {
-    return `
-## [License](#table-of-contents)
+    return `## [License](#table-of-contents)
   
-    The application is covered under the following license:
+  The application is covered under the following license:
   
-  ${renderLicenseLink(license)}
-    `;
+  ${renderLicenseLink(license)}`;
   } 
   else 
   {
