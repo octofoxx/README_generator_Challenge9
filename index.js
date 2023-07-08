@@ -64,9 +64,3 @@ inquirer.prompt([
    err ? console.log(err) : console.log('Successfully created README!')
  );
 });
-/*
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init(); */
