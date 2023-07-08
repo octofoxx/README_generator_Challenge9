@@ -17,7 +17,7 @@ N/A
 To use: Open an integrated terminal via VScode (or similar editor) and invoke the application by running `node index.js`.
 Answer the prompts and once completed a newREADME.md file will be generated.
 
-https://app.screencastify.com/manage/videos/4PFTMrQPdaVxV2Oi5IuV- video walkthrough of how to use the readme generator.
+https://drive.google.com/file/d/1VeJAxtTvtYphDVk2ugVPsybye48DGybL/view video walkthrough of how to use the readme generator.
 
 ## Credits
 
