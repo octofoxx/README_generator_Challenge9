@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// function that returns a license badge based on which license is passed in
+// if there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'none') {
     return `![badge](https://img.shields.io/badge/License-${license}-blue.svg)`;
@@ -11,8 +11,8 @@ function renderLicenseBadge(license) {
 }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function that returns the license link
+// if there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'none') {
     return `[${license}](https://opensource.org/licenses/${license})`;
@@ -23,8 +23,8 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function that returns the license section of README
+// if there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'none') {
     return `## [License](#table-of-contents)
@@ -51,7 +51,6 @@ function renderLicenseTOC(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
 # ${data.title}
@@ -67,7 +66,7 @@ ${renderLicenseBadge(data.license)}
 * [Installation](#installation)
 * [Usage](#usage)
 ${renderLicenseTOC(data.license)}
-* [Contributing](#contributing)
+* [Credits](#credits)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -81,9 +80,9 @@ ${renderLicenseTOC(data.license)}
 
 ${renderLicenseSection(data.license)}  
 
-## [Contributing](#table-of-contents)
+## [Credits](#table-of-contents)
   
-  ${data.contribution}
+  ${data.credits}
 
 ## [Tests](#table-of-contents)
   
@@ -91,7 +90,7 @@ ${renderLicenseSection(data.license)}
 
 ## [Questions](#table-of-contents)
 
-  For any questions, please contact via:
+  IF you would like to contribute to the project, have any questions, or just general feedback please contact via:
   
   [GitHub](https://github.com/${data.github})
 

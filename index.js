@@ -29,8 +29,8 @@ inquirer.prompt([
    },
    {
     type: 'input',
-    name: 'contribution',
-    message: 'Please provide contribution guidelines.'
+    name: 'credits',
+    message: 'Please provide any credit information such as tutorials used, examples referenced, collaborators, etc.'
    },
    {
     type: 'input',
